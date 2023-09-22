@@ -11,21 +11,19 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: const Icon(
-          Icons.menu,
-          color: Colors.white
-        ),
-      ),
-      body:  Container(
-        color: Colors.red,
-           child: const Column(
+      backgroundColor: Colors.red,
+      body: Container(
+        width: 200,
+        color: Colors.green,
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-
+            Container(
+              height: 150,
+              width: 250,
+            )
           ],
         ),
-
       ),
     );
   }
